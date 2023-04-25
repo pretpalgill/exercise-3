@@ -1,0 +1,24 @@
+<html>
+<head>
+     <meta charset="utf 8">
+     <meta name="viewport" content="width=device-width, initial scale=1">
+     <title>Exercise 3</title>
+</head>
+<body>
+	
+        <input type="text" id="id1"><br>
+        <input type="submit" value="Compute" onclick="myFunction()"><br>
+        <p id="id2"></p>
+    
+	<script>
+        function myFunction() {
+              var var1 = document.getElementById('id1').value;
+              var answer = Number(var1) * Number(0.0328);
+              //window.alert(answer)
+              document.getElementById('id2').innerHTML = "the conversion to feet is... " + answer;
+     } 
+
+	</script>
+
+	</body>
+	</html>
